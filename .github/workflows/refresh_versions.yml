@@ -11,6 +11,7 @@ jobs:
   check-versions:
     name: Check for New Versions
     runs-on: "ubuntu-latest"
+    timeout-minutes: 10
     steps:
       - name: check-out
         uses: actions/checkout@v7.0.1
